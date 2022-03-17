@@ -44,7 +44,7 @@ header{
 /* MAIN */
 main{
     height: 87vh;
-    background-color: blue;
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -53,11 +53,28 @@ main{
 }
 
 .user{
-    background-color: brown;
-    border: 1px solid black;
     width: 250px;
-    height: 170px;
     margin: 10px 2px;
+    position: relative;
+    color: white;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.pinco-pallo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    background-color: rgba(0, 0, 0, .4);
+    padding: .5em;
+}
+
+.pinco-pallo span{
+    margin-right: 10px;
 }
 
 /* FOOTER */
