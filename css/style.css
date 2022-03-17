@@ -30,3 +30,22 @@ header{
     height: 100%;
     border: 1px solid aqua;
 }
+
+/* MAIN */
+main{
+    height: 87vh;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+    padding: 3em 0;
+}
+
+.user{
+    background-color: brown;
+    border: 1px solid black;
+    width: 250px;
+    height: 170px;
+    margin: 10px 2px;
+}
