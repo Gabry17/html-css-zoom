@@ -49,3 +49,29 @@ main{
     height: 170px;
     margin: 10px 2px;
 }
+
+/* FOOTER */
+footer{
+    background-color: #2d2828;
+    height: calc(13vh - 30px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.audio-video{
+    width: 100px;
+    height: 100%;
+    background-color: pink;
+}
+
+.setting{
+    width: 400px;
+    height: 100%;
+    background-color: red;
+}
+
+.stop{
+    width: 100px;
+    height: 100%;
+    background-color: white;
+}
