@@ -10,42 +10,54 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header,
+main {
+    background-color: black;
+}
+
+.white{
+    color: white;
+}
+
+.elem{
+    padding: 3px;
+    border-radius: .2em;
+    background-color: #5c5b5b;
+}
+
+.center,
+.icons{
+    align-items: center;
+}
+
+.flex,
+.user .pinco-pallo,
+.icons{
+    display: flex;
+}
+
+.height-100,
+img{
+    height: 100%;
+}
+
 /* HEADER */
 header{
-    background-color: black;
-    display: flex;
     justify-content: flex-end;
     padding: 5px;
 }
 
-.cont-nav{
-    display: flex;
-    color: white;
-}
-
 .element-1{
-    background-color: #5c5b5b;
     margin-right: 10px;
-    display: flex;
-    padding: 3px;
-    border-radius: .2em;
 }
 
 .nav-text{
     margin-left: 3px;
 }
 
-.element-2{
-    background-color: #5c5b5b;
-    padding: 3px;
-    border-radius: .2em;
-}
-
 /* MAIN */
 main{
     height: 87vh;
-    background-color: black;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     overflow: auto;
@@ -56,11 +68,9 @@ main{
     width: 250px;
     margin: 10px 2px;
     position: relative;
-    color: white;
 }
 
 img{
-    height: 100%;
     width: 100%;
 }
 
@@ -68,7 +78,6 @@ img{
     position: absolute;
     bottom: 0;
     left: 0;
-    display: flex;
     background-color: rgba(0, 0, 0, .4);
     padding: .5em;
 }
@@ -81,26 +90,14 @@ img{
 footer{
     background-color: #2d2828;
     height: calc(13vh - 35px);
-    display: flex;
     justify-content: space-between;
-    color: white;
 }
 
 /* audio/video */
-
-.audio-video{
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
 .icons{
-    display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 0 1em;
 }
-
 
 .icons i{
     font-size: 1.5em;
@@ -108,13 +105,6 @@ footer{
 }
 
 /* setting */
-
-.setting{
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
 .green i{
     color: #08f208;
 }
@@ -122,10 +112,7 @@ footer{
 /* stop */
 
 .stop{
-    height: 100%;
-    background-color: rgb(82, 82, 82);
+    background-color: #525252;
     color: red;
-    display: flex;
-    align-items: center;
     padding: 0 1em;
 }
