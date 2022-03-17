@@ -5,30 +5,40 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* HEADER */
 header{
     background-color: black;
     display: flex;
     justify-content: flex-end;
+    padding: 5px;
 }
 
 .cont-nav{
-    width: 70px;
-    height: 30px;
-    background-color: red;
     display: flex;
+    color: white;
 }
 
 .element-1{
-    width: 70%;
-    height: 100%;
-    border: 1px solid aqua;
+    background-color: #5c5b5b;
+    margin-right: 10px;
+    display: flex;
+    padding: 3px;
+    border-radius: .2em;
+}
+
+.nav-text{
+    margin-left: 3px;
 }
 
 .element-2{
-    width: 30%;
-    height: 100%;
-    border: 1px solid aqua;
+    background-color: #5c5b5b;
+    padding: 3px;
+    border-radius: .2em;
 }
 
 /* MAIN */
@@ -53,7 +63,7 @@ main{
 /* FOOTER */
 footer{
     background-color: #2d2828;
-    height: calc(13vh - 30px);
+    height: calc(13vh - 35px);
     display: flex;
     justify-content: space-between;
 }
